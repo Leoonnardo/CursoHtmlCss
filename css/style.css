@@ -1,0 +1,83 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 h2 h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 span {
+    color: rgb(42, 71, 165);
+}
+
+h2 span {
+    color: rgb(65, 116, 255);
+}
+
+/* Header y Navegacion */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-nav {
+    border-top-style: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.hero {
+    background-image: url("../images/principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/* Categorias */
+
+.categorias h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    color: white;
+    background-color: #037bc0;
+    border-bottom-right-radius: 10px;
+}
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* grid-template-rows: 100px 100px; */
+}
